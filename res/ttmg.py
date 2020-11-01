@@ -398,7 +398,7 @@ def updateCheck(self, Version):
           return message
 
     check = UpdateChecker()
-    check.URL = "https://raw.githubusercontent.com/nk932714/custom/master/update.xml"
+    check.URL = "https://raw.githubusercontent.com/nk932714/custom/main/update.xml"
     currentVersion = check.getVersion("currentVersion")
     message = check.getMessage("message")
 
